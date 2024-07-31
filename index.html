@@ -1,123 +1,147 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VictorGevers.com</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Roboto Mono", monospace;
-            font-optical-sizing: auto;
-            font-style: normal;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #fff;
-        }
-
-        .signup-container {
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgb(245, 244, 244);
-            text-align: center;
-            margin-bottom: 30px;
-            max-width: 976px;
-        }
-        .signup-container h1 {
-            margin-bottom: 20px;
-        }
-        .signup-container input[type="email"] {
-            padding: 10px;
-            width: 80%;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .signup-container button {
-            padding: 10px 20px;
-            background-color: #2bbd3e;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .signup-container button:hover {
-            background-color: #2bbd3e;
-        }
-       
-       h1 {
-        color: #2bbd3e;
-
-       }
-       
-        .articles-container {
-            max-width: 642px;
-            width: 100%;
-            margin: 0 auto;
-        }
-        .article {
-            background: #fff;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgb(255, 255, 255);
-        }
-        .article h2 {
-            margin: 0 0 10px;
-        }
-        .article p {
-            font-size: smaller;
-            font-style: italic;
-         }
-        .article a {
-            font-size: small;
-            font-style: normal;
-            display: block;
-            
-        }
-
-    </style>
-</head>
-<body>
-    <div class="signup-container">
-        <h1>Free Weekly Newsletter </h1>
-        <p style="max-width: 642px;">Join 2,5k+ subscribers to the free newsletter for insider tips, cutting edge strategies, and personal recommendations. </p>
-        <iframe src="https://victorgevers.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-    </div>
-
-    <div class="articles-container"> 
-                      
-        <h1>My Articles on Medium</h1>
-
-        <div class="article">
-            <h2>Can GitHub git a grip?</h2>
-            <p>Once a sanctuary for open-source collaboration, GitHub has faced growing concerns about its role as a platform for malicious activity…<a href="https://medium.com/@victor_gevers/can-github-git-a-grip-130ab0be20c3?source=your_stories_page-------------------------------------" target="_blank">Read more</a></p>
-        </div>
-
-        <div class="article">
-            <h2>Rescursive Introspection</h2>
-            <p>Pioneering Self-Improvement in Language Model Agents..<a href="https://medium.com/@victor_gevers/rescursive-introspection-c4ed3bcde87a" target="_blank">Read more</a></p>
-        </div>
-
-        <div class="article">
-            <h2>Danger Zone: Training AI on AI-Generated Data</h2>
-            <p>A groundbreaking study published in Nature has unveiled a critical vulnerability in the development of artificial intelligence models.<a href="https://medium.com/@victor_gevers/danger-zone-training-ai-on-ai-generated-data-d6a0b8ae198c" target="_blank">Read more</a></p>
-        </div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Victor Gevers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+				<section id="header">
+						
+						<a href="/"><img src="/images/victor.png" style="height: 100px;" /></a>
+						<h2 style="height: 100px;">by Victor Gevers</h2>
 
 
-        <div class="article">
-            <h2>The AI Gold Rush: Boom or Bubble?</h2>
-            <p>The technology sector has enthusiastically and rapidly embraced the development and implementation of artificial intelligence (AI)…<a href="https://medium.com/@victor_gevers/the-ai-gold-rush-boom-or-bubble-565757f4d307" target="_blank">Read more</a></p>
-        </div>
-    </div>
-</body>
+
+						<nav id="nav">
+							<ul>
+								<li><a href="#articles">ARTICLES</a></li>
+								<li><a href="#newsletter">NEWSLETTER</a></li>
+								<li><a href="#about/">ABOUT</a></li>
+							</ul>
+						</nav>
+
+						<section id="banner">
+							<h1>Free Weekly Newsletter </h1>
+        					<p>Join 2,5k+ subscribers to the free newsletter for insider tips, cutting edge strategies, and personal recommendations.</p>
+        					<iframe src="https://victorgevers.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    					</section>
+				</section>
+
+			
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+									<section>
+										<header class="major">
+											<h2 id="articles">ARTICLES</h2>
+										</header>
+										<div class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*UKzySX4_F8PEYOV9" alt="Photo by Roman Synkevych on Unsplash" /></a>
+													<header>
+														<h3>Can GitHub git a grip?</h3>
+													</header>
+													<p>Once a sanctuary for open-source collaboration, GitHub has faced growing concerns about its role as a platform for malicious activity. Recent reports have unveiled a disturbing reality: the platform has become a breeding ground for cybercriminals.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://medium.com/@victor_gevers/can-github-git-a-grip-130ab0be20c3" class="button alt">Read more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*VU798CzdbJsqz4cVJoNi6A.png" alt="RISE results" /></a>
+													<header>
+														<h3>Rescursive Introspection</h3>
+													</header>
+													<p>A team of researchers from Carnegie Mellon University, UC Berkeley, and MultiOn has achieved a groundbreaking advancement in artificial intelligence. Their innovative approach, Recursive IntroSpEction (RISE), marks a pivotal moment in the evolution of large language models (LLMs).</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://medium.com/@victor_gevers/rescursive-introspection-c4ed3bcde87a" class="button alt">Read more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*GJC15soThVtvRLwq" alt="Photo by Erica Nilsson on Unsplash" /></a>
+													<header>
+														<h3>Training on AI-Generated Data</h3>
+													</header>
+													<p>Researchers have discovered that when AI models are trained on data generated by other AI models, a phenomenon known as “model collapse” can occur. This process leads to a significant degradation in model performance, as the models increasingly produce repetitive and inaccurate outputs.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://medium.com/@victor_gevers/danger-zone-training-ai-on-ai-generated-data-d6a0b8ae198c" class="button alt">Read more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-12">
+
+								
+									<section>
+										<header class="major">
+											<h2 id="newsletter">Newsletter</h2>
+										</header>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="https://images.unsplash.com/photo-1483129804960-cb1964499894?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Chris Li on Unsplash" /></a>
+													<header>
+														<h3>The AI Gold Rush: Boom or Bubble?</h3>
+														<p>Jul 30, 2024</p>
+													</header>
+													<p>Tech giants are pouring $60 billion annually into AI development but only reaping $20 billion in return. With VC funding cooling, questions arise about the industry's ability to justify massive AI investments.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://victorgevers.substack.com/p/the-ai-gold-rush-boom-or-bubble" class="button icon solid fa-file-alt">Continue Reading</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Nathan Dumlao on Unsplash"></a>
+													<header>
+														<h3>A milestone in Cyber security education</h3>
+														<p>Jul 28, 2024</p>
+													</header>
+													<p>I am thrilled to share an incredible milestone in my journey as a cybersecurity educator. Currently, 2289 students actively participate in the Ethical Hacker course...</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://victorgevers.substack.com/p/a-milestone-in-cyber-security-education" class="button icon solid fa-file-alt">Continue Reading</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+		</div>
+
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.dropotron.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
+
+	</body>
 </html>
-
