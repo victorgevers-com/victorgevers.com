@@ -1548,7 +1548,7 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				background: #fafafa;
+				background: #fff;
 				position: relative;
 				top: -0.65em;
 				display: inline;
@@ -2060,7 +2060,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #fafafa;
+		background: #fff;
 		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
