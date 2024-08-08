@@ -1825,7 +1825,7 @@ input, select, textarea {
 			background-color: #d52349;
 			height: 3.5em;
 			text-align: center;
-			color: #fff;
+			color: #ffffff;
 			line-height: 1em;
 			border-top-left-radius: 5px;
 			border-bottom-left-radius: 5px;
@@ -1849,8 +1849,15 @@ input, select, textarea {
 			}
 
 		ul.dates h3 {
+			color: black;
 			font-size: 1.1em;
 		}
+
+		ul.dates  a {
+			color: black;
+			font-size: 1.1em;
+		}
+
 
 		ul.dates p {
 			margin: 0;
