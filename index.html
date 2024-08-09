@@ -6,6 +6,69 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="https://whois.victorgevers.com/assets/css/style.css">
+
+		<style>
+
+			.box {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 550px; /* Set your fixed height */
+				overflow: hidden;
+				border: solid 1px #f1ebeb;
+			}
+
+			.box header {
+    			margin-bottom: 50px; /* Optional: Add some spacing between the header and paragraph */
+			}
+			
+			.box p {
+				max-height: 100px; /* Limit the height of the paragraph */
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 4; /* Limit the number of lines */
+				-webkit-box-orient: vertical;
+			}
+
+			.actions {
+				margin-top: auto; /* Push the button to the bottom */
+			}
+
+			.news-box {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 600px; /* Set your fixed height */
+				overflow: hidden;
+				background: #ffffff;
+				border: solid 1px #f1ebeb;
+  				padding: 2.75em 1.75em 2.75em 1.75em;
+
+			}
+			.news-box header {
+    			margin-bottom: 5px; /* Optional: Add some spacing between the header and paragraph */
+			}
+			
+			.news-box p {
+				max-height: 100px; /* Limit the height of the paragraph */
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 4; /* Limit the number of lines */
+				-webkit-box-orient: vertical;
+			}
+
+			.news-box img {
+				max-height: 233px;
+
+			}
+
+
+
+
+
+		</style>
 		
 	</head>
 	<body class="homepage is-preload">
@@ -57,7 +120,7 @@
 
 
 								<div class="col-6 col-12-small">
-									<section class="box">
+									<section class="news-box">
 										<a href="https://medium.com/@victor_gevers/the-power-of-light-47753d47968f" class="image featured"><img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*jxLSH3nESwpZdn_lUndBbQ.jpeg" style="" alt="The Power of Light" /></a>
 										<header>
 											<h3>The Power of Light</h3>
@@ -75,7 +138,7 @@
 
 
 								<div class="col-6 col-12-small">
-									<section class="box">
+									<section class="news-box">
 										<a href="https://medium.com/@victor_gevers/nvidia-exposed-34e585cf4b88" class="image featured"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*r6-ZzWlmXGFeTfT7XChNCQ.png" alt="Nvidia exposed" /></a>
 										<header>
 											<h3>Nvidia Exposed</h3>
@@ -274,8 +337,8 @@
 											<div class="col-6 col-12-small">
 
 
-												<section class="box">
-													<a href="https://victorgevers.substack.com/p/ai-weekly-31" class="image featured"><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdca6548f-38fd-4f60-9ebc-6eba35e43909_1456x816.jpeg" alt="AI Sunrise" /></a>
+												<section class="news-box">
+													<a href="https://victorgevers.substack.com/p/ai-weekly-31" class="image featured"><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdca6548f-38fd-4f60-9ebc-6eba35e43909_1456x816.jpeg" alt="AI Sunrise"/></a>
 													<header>
 														<h3>AI Weekly Newsletter #31</h3>
 														<p>Aug 4 2024</p>
@@ -290,7 +353,7 @@
 											</div>
 											<div class="col-6 col-12-small">											
 
-												<section class="box">
+												<section class="news-box">
 													<a href="https://victorgevers.substack.com/p/embedding-ai" class="image featured"><img src="https://images.unsplash.com/photo-1494083306499-e22e4a457632?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Brian Kostiuk on Unsplash" /></a>
 													<header>
 														<h3>Embedding AI</h3>
@@ -305,7 +368,7 @@
 												</section>
 											</div>
 											<div class="col-6 col-12-small">
-												<section class="box">
+												<section class="news-box">
 													<a href="https://victorgevers.substack.com/p/the-ai-gold-rush-boom-or-bubble" class="image featured"><img src="https://images.unsplash.com/photo-1483129804960-cb1964499894?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Chris Li on Unsplash" /></a>
 													<header>
 														<h3>The AI Gold Rush: Boom or Bubble?</h3>
@@ -320,7 +383,7 @@
 												</section>
 											</div>
 											<div class="col-6 col-12-small">
-												<section class="box">
+												<section class="news-box">
 													<a href="#" class="image featured"><img src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Nathan Dumlao on Unsplash"></a>
 													<header>
 														<h3>A milestone in Cyber security education</h3>
@@ -335,7 +398,7 @@
 												</section>
 											</div>
 												<div class="col-6 col-12-small">
-													<section class="box">
+													<section class="news-box">
 														<a href="https://victorgevers.substack.com/p/diary-entry-july-28-2024" class="image featured"><img src="https://images.unsplash.com/photo-1712342109846-a8fcb1c883ba?q=80&w=2082&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Fahim mohammed on Unsplash"></a>
 														<header>
 															<h3>Diary Entry - July 28, 2024: "Just start"</h3>
