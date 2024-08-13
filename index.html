@@ -67,6 +67,8 @@
 
 /* Styling for a quote bubble */
 
+/** disabled 
+
 blockquote{
   display:block;
   background: #fff;
@@ -74,40 +76,35 @@ blockquote{
   margin: 0 0 20px;
   position: relative;
   
-  /*Font*/
   font-family: Georgia, serif;
   font-size: 16px;
   line-height: 1.2;
   color: #666;
   text-align: justify;
   
-  /*Borders - (Optional)*/
   border-left: 15px solid #c76c0c;
   border-right: 2px solid #c76c0c;
   
-  /*Box Shadow - (Optional)*/
   -moz-box-shadow: 2px 2px 15px #ccc;
   -webkit-box-shadow: 2px 2px 15px #ccc;
   box-shadow: 2px 2px 15px #ccc;
 }
 
 blockquote::before{
-  content: "\201C"; /*Unicode for Left Double Quote*/
+  content: "\201C"; 
   
-  /*Font*/
+  
   font-family: Georgia, serif;
   font-size: 60px;
   font-weight: bold;
   color: #999;
   
-  /*Positioning*/
   position: absolute;
   left: 10px;
   top:5px;
 }
 
 blockquote::after{
-  /*Reset to make sure*/
   content: "";
 }
 
@@ -127,6 +124,7 @@ blockquote em{
   font-style: italic;
 }
 
+*/
 
 /*  Testimonial style */
 
@@ -265,11 +263,32 @@ blockquote em{
 							<h1 id="signup">Free Weekly Newsletter </h1><br />
         					<p>Join 2,5k+ subscribers to the free newsletter for insider tips, cutting edge strategies, and personal recommendations.</p>
         					<iframe src="https://victorgevers.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-    					</section>
+
+							<!-- testimonials
+							
+							<div class="testimonial-quote group right">
+								<img src="http://placehold.it/120x120">
+								<div class="quote-container">
+									<div>
+										<blockquote>
+											<p>"Lorem ipsum dolor amit.”</p>
+										</blockquote>  
+										<cite><span>name</span><br>
+											role<br>
+											Organisation
+										</cite>
+									</div>
+								</div>
+							</div>  -->
+
+
+						</section>
 				</section>
 			</div>
 
 
+
+			
 			<section id="main">
 				<!-- featured-->
 				
@@ -709,6 +728,11 @@ blockquote em{
 												</header>
 												<ul class="dates">
 													<li>
+														<span class="date">Aug <strong>12</strong></span>
+														<h3 style="color: black;"><a href="https://blog.victorgevers.com/the-art-of-assertiveness-87407522f2f7">The Art of Assertiveness</a></h3>
+														<p>Day 8: "From doormat to dynamite in a day?"</p>
+													</li>
+													<li>
 														<span class="date">Aug <strong>11</strong></span>
 														<h3 style="color: black;"><a href="https://blog.victorgevers.com/9-creative-habits-99615be92350">9 Creative Habits</a></h3>
 														<p>Day 7: "My nine habits to stay creative (forever)"</p>
@@ -807,20 +831,7 @@ blockquote em{
 
 end bubble-quote test-->
 
-<div class="testimonial-quote group right">
-	<img src="http://placehold.it/120x120">
-	<div class="quote-container">
-		<div>
-			<blockquote>
-				<p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
-			</blockquote>  
-			<cite><span>Kristi Bruno</span><br>
-				Social Media Specialist<br>
-				American College of Chest Physicians
-			</cite>
-		</div>
-	</div>
-</div>     
+
 
 		</div>
 
