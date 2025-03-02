@@ -1,0 +1,18 @@
+baseURL = 'https://victorgevers.com/'
+languageCode = 'en'
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+enableEmoji = true
+title = 'victorgevers.com'
+copyright = 'Victor Gevers'
+theme = 'hugo-theme-itheme'
+pagerSize = 5
+[params]
+  defaultCover = 'https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg'
+  email = 'noreply@victorgevers.com'
+  [[params.socialMedia]]
+    name = 'Github'
+    url = 'https://github.com/cookiemonster'
+  [[params.blogroll]]
+    name = 'VictorGevers.com'
+    url = 'https://victorgevers.com/'
