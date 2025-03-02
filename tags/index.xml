@@ -7,6 +7,28 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Victor Gevers</copyright>
+    <lastBuildDate>Wed, 05 Jun 2024 15:04:53 +0800</lastBuildDate>
     <atom:link href="https://victorgevers.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://victorgevers.com/tags/blog/</link>
+      <pubDate>Wed, 05 Jun 2024 15:04:53 +0800</pubDate>
+      <guid>https://victorgevers.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overcoming Fear</title>
+      <link>https://victorgevers.com/tags/overcoming-fear/</link>
+      <pubDate>Wed, 05 Jun 2024 15:04:53 +0800</pubDate>
+      <guid>https://victorgevers.com/tags/overcoming-fear/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Development</title>
+      <link>https://victorgevers.com/tags/personal-development/</link>
+      <pubDate>Wed, 05 Jun 2024 15:04:53 +0800</pubDate>
+      <guid>https://victorgevers.com/tags/personal-development/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
